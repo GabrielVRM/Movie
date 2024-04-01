@@ -11,6 +11,12 @@
 - users 1:N movie_notes
 - tags 1:N movie_notes
 
+Insomnia
+
+- cada usuario poderá ver seus filmes.
+- usuarios ADM podera ver todos os filmes
+- um usuario poderá criar novos filmes favoritos
+
 #### Users
 
 - nome required
