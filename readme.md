@@ -6,15 +6,30 @@
 
 ## Hard skills
 
+> hash de senha com o bcrypt
+> atualizar a senha com o hash no banco de dados
+> autenticação de emails
+> estrutura de banco de dados
+> estrutura MVC de pastas no nodeJS
+
 ## Regar de Negocios
 
 - users 1:N movie_notes
 - tags 1:N movie_notes
 
 Insomnia
+[X] criar um usuario
+[X] ver um usuario
+[X] deletar um usuario
+[X] atualizar um usuario
 
+[X] usuario add varios filmes
+[X] usuario pode ver seus filmes
+[X] usuario pode deletar seus filmes (deletando também as tags)
+[X] tags criadas autmaticamente e deletadas da mesma forma
+
+-
 - cada usuario poderá ver seus filmes.
-- usuarios ADM podera ver todos os filmes
 - um usuario poderá criar novos filmes favoritos
 
 #### Users

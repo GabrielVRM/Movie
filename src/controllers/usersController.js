@@ -1,6 +1,6 @@
 const knex = require("../database/knex");
 const AppError = require("../utils/appError");
-const { hash } = require("bcryptjs");
+const { hash, compare } = require("bcryptjs");
 class UsersController {
   async created(req, res) {
     const { name, email, password } = req.body;
@@ -38,15 +38,29 @@ class UsersController {
   async update(req, res) {
     const { email, password, old_password } = req.body;
     const { id } = req.params;
+
+    const user = await knex("users").where({ id: id }).first();
     const emailVerify = await knex("users")
       .where({ id: id, email: email })
       .first();
-    const passwordVerify = await knex("users")
-      .where({ id: id, password: old_password })
-      .first();
 
     if (!emailVerify) throw new AppError("email incorrect");
-    if (!passwordVerify) throw new AppError("password incorrect");
+
+    // if (!passwordVerify) throw new AppError("password incorrect");
+
+    if (old_password && password) {
+      const checkHashPassword = await compare(old_password, user.password);
+
+      if (!checkHashPassword) {
+        throw new AppError("password incorrect!");
+      }
+
+      const newPassword = await hash(password, 8);
+      console.log(newPassword);
+      await knex("users").where({ id: id }).update({
+        password: newPassword,
+      });
+    }
 
     res.json({});
   }
@@ -54,13 +68,20 @@ class UsersController {
   async delete(req, res) {
     const { email, password } = req.body;
 
-    const idVerify = await await knex("users")
+    const { id } = req.params;
+
+    const user = await knex("users").where({ id: id }).first();
+    if (!user) throw new AppError("id not exist");
+
+    const userVerify = await await knex("users")
       .where({ email: email, password: password })
       .first();
 
-    if (!idVerify) throw new AppError("email or password invalid");
+    const passwordVerify = compare(password, user.password);
+    if (!userVerify && !passwordVerify)
+      throw new AppError("email or password invalid");
 
-    await knex("users").where({ email: email, password: password }).delete();
+    await knex("users").where({ email: email }).delete();
 
     res.json({ message: "user deleted" });
   }

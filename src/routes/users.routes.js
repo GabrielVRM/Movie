@@ -25,6 +25,6 @@ userRouters.get("/:id", usersController.show);
 
 userRouters.put("/:id", userVerify, usersController.update);
 
-userRouters.delete("/", usersController.delete);
+userRouters.delete("/:id", usersController.delete);
 
 module.exports = userRouters;

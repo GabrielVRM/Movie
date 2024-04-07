@@ -8,20 +8,39 @@ class MovieControllers {
 
     const userExist = await knex("users").where({ id: user_id }).first();
 
+    const tags = [
+      "ação",
+      "aventura",
+      "terror",
+      "medo",
+      "comedia",
+      "suspense",
+      "desenho",
+      "super-heroi",
+    ];
     if (!userExist) throw new AppError("user undefined");
 
-    const [movie_id] = await knex("movie_notes").insert({
-      name,
-      description,
-      note_movie,
-      user_id,
-    });
+    const indexArray = tags.indexOf(nameTag);
+    if (indexArray !== -1) {
+      const [movie_id] = await knex("movie_notes").insert({
+        name,
+        description,
+        note_movie,
+        user_id,
+      });
 
-    const MovieTag = await knex("movie_tags").insert({
-      name: nameTag,
-      user_id,
-      movie_id,
-    });
+      const MovieTag = await knex("movie_tags").insert({
+        name: nameTag,
+        user_id,
+        movie_id,
+      });
+    } else {
+      throw new AppError(
+        `${nameTag} not exist, please select one of the options ${tags.map(
+          (i) => i + " "
+        )} `
+      );
+    }
 
     res.json({});
   }
