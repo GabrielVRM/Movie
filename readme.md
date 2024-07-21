@@ -5,12 +5,18 @@
 ![Untitled](https://github.com/GabrielVRM/Movie/assets/95998556/d6dcbcfc-6030-4898-86bd-40ced6ce7dce)
 
 ## Hard skills
-
-> hash de senha com o bcrypt
-> atualizar a senha com o hash no banco de dados
-> autenticação de emails
-> estrutura de banco de dados
-> estrutura MVC de pastas no nodeJS
+- regra de negocios
+- express
+- middlewares
+- hash de senha com o bcrypt
+- atualizar a senha com o hash no banco de dados
+- autenticação de emails
+- estrutura de banco de dados
+- estrutura MVC de pastas no nodeJS
+- manipular BD (SQLITE)
+- criar BD
+- query builder (KNEX)
+  
 
 ## Regar de Negocios
 
