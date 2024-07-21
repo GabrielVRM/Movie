@@ -1,4 +1,4 @@
-// pegando a pasta de funcionalidades do express e colocando no "express"
+require('dotenv/config')
 require('express-async-errors')
 const AppError = require('./utils/appError')
 const express = require('express')
@@ -32,6 +32,6 @@ app.use((error, req, res, next) => {
   })
 })
 
-// ports que o express vai ficar escultando as request, solicitações.
-const PORT = 3333
+// ports que o express vai ficar escultando as request, (solicitações).
+const PORT = process.env.PORT || 3333
 app.listen(PORT, () => console.log(`Serve is runnig on Port ${PORT}`))
