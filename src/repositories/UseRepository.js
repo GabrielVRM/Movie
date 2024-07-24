@@ -14,7 +14,6 @@ class UseRepository {
   }
 
   async create({ name, email, password }) {
-    console.log({ name, email, password })
     try {
       const userId = await knex('users').insert({
         name,
