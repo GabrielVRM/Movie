@@ -11,6 +11,10 @@ module.exports = {
       env_production: {
         NODE_ENV: 'production',
       },
+      log_file: './logs/app.log', // Caminho para o arquivo de log
+      out_file: './logs/out.log', // Caminho para o log padrão
+      error_file: './logs/err.log', // Caminho para o log de erro
+      log_date_format: 'YYYY-MM-DD HH:mm Z', // Formato de data para logs
     },
     // {
     //   name: 'worker',

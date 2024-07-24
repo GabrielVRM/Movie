@@ -1,20 +1,31 @@
 const knex = require('../database/knex/index')
+const AppError = require('../utils/appError')
 
 class UseRepository {
   async findByEmail(email) {
-    const user = await knex('users').where({ email: email }).first()
+    try {
+      const user = await knex('users').where(email).first()
 
-    return user
+      console.log(user)
+      return user
+    } catch (error) {
+      throw new AppError(`${error}, email já existente`)
+    }
   }
 
-  async create({ name, email, hashedPassword }) {
-    const userId = await knex('users').insert({
-      name,
-      email,
-      password: hashedPassword,
-    })
+  async create({ name, email, password }) {
+    console.log({ name, email, password })
+    try {
+      const userId = await knex('users').insert({
+        name,
+        email,
+        password,
+      })
 
-    return { id: userId }
+      return { id: userId }
+    } catch (error) {
+      throw new AppError(`${error}, não foi possivel cadastrar!`)
+    }
   }
 }
 

@@ -8,12 +8,14 @@ const { compare } = require('bcryptjs')
 class SessionController {
   async create(req, res) {
     const { email, password } = req.body
+    console.log({ email, password })
 
     const user = await knex('users').where({ email }).first()
     if (!user) {
       throw new AppError('E-mail ou senha invalida', 401)
     }
 
+    console.log(password, user.password)
     const passwordMatched = await compare(password, user.password)
     if (!passwordMatched) {
       throw new AppError('E-mail ou senha invalida', 401)

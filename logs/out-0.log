@@ -1,0 +1,175 @@
+2024-07-24 09:55 -03:00: Serve is runnig on Port 3333
+2024-07-24 10:07 -03:00: Serve is runnig on Port 3333
+2024-07-24 10:08 -03:00: {
+  id: [33m1[39m,
+  name: [32m'Gabriel Maximo'[39m,
+  email: [32m'gabriel.vieira2595@gmail.com'[39m,
+  password: [32m'$2a$08$bZp9JzO3DhaSUgLo7ovmYetBxor3BmsehdLoZAdSQivCmLAKwdGTa'[39m,
+  avatar: [32m'c2e67562752152451313-fotoGVRM.jpg'[39m,
+  created_at: [32m'2024-07-19 23:50:02'[39m,
+  modified_at: [32m'2024-07-19 23:50:02'[39m
+}
+2024-07-24 10:09 -03:00: [90mundefined[39m
+2024-07-24 10:09 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:14 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:15 -03:00: Error: Undefined binding(s) detected when compiling FIRST. Undefined column(s): [email] query: select * from `users` where `email` = ? limit ?
+    at QueryCompiler_SQLite3.toSQL [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mknex[24m\lib\query\querycompiler.js:112:13[90m)[39m
+    at QueryBuilder_SQLite3.toSQL [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mknex[24m\lib\query\querybuilder.js:84:44[90m)[39m
+    at ensureConnectionCallback [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mknex[24m\lib\execution\internal\ensure-connection-callback.js:4:30[90m)[39m
+    at Runner.ensureConnection [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mknex[24m\lib\execution\runner.js:318:20[90m)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+    at async Runner.run [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mknex[24m\lib\execution\runner.js:30:19[90m)[39m
+    at async create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:12:18[90m)[39m
+2024-07-24 10:15 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:17 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:18 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:18 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:20 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:22 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:23 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:24 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:25 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:26 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:27 -03:00: Error: Undefined binding(s) detected when compiling FIRST. Undefined column(s): [email] query: select * from `users` where `email` = ? limit ?
+    at QueryCompiler_SQLite3.toSQL [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mknex[24m\lib\query\querycompiler.js:112:13[90m)[39m
+    at QueryBuilder_SQLite3.toSQL [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mknex[24m\lib\query\querybuilder.js:84:44[90m)[39m
+    at ensureConnectionCallback [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mknex[24m\lib\execution\internal\ensure-connection-callback.js:4:30[90m)[39m
+    at Runner.ensureConnection [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mknex[24m\lib\execution\runner.js:318:20[90m)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+    at async Runner.run [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mknex[24m\lib\execution\runner.js:30:19[90m)[39m
+    at async create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:12:18[90m)[39m
+2024-07-24 10:27 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:29 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:33 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:34 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:17:35[90m)[39m
+2024-07-24 10:35 -03:00: Serve is runnig on Port 3333
+2024-07-24 10:36 -03:00: { email: [32m'tyeste@bol.br'[39m, password: [32m'123'[39m }
+2024-07-24 10:36 -03:00: 123 [1mnull[22m
+2024-07-24 10:36 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:19:35[90m)[39m
+2024-07-24 10:46 -03:00: { email: [32m'tyeste@bol.br'[39m, password: [32m'123'[39m }
+2024-07-24 10:46 -03:00: 123 [1mnull[22m
+2024-07-24 10:46 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:19:35[90m)[39m
+2024-07-24 11:02 -03:00: { email: [32m'tyeste@bol.br'[39m, password: [32m'123'[39m }
+2024-07-24 11:02 -03:00: 123 [1mnull[22m
+2024-07-24 11:02 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:19:35[90m)[39m
+2024-07-24 11:02 -03:00: { email: [32m'tyeste@bol.br'[39m, password: [32m'123'[39m }
+2024-07-24 11:02 -03:00: 123 [1mnull[22m
+2024-07-24 11:02 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:19:35[90m)[39m
+2024-07-24 11:03 -03:00: Serve is runnig on Port 3333
+2024-07-24 11:07 -03:00: { email: [32m'tyeste@bol.br'[39m, password: [32m'123'[39m }
+2024-07-24 11:07 -03:00: 123 [1mnull[22m
+2024-07-24 11:07 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:19:35[90m)[39m
+2024-07-24 11:08 -03:00: Serve is runnig on Port 3333
+2024-07-24 11:08 -03:00: { email: [32m'tyeste@bol.br'[39m, password: [32m'123'[39m }
+2024-07-24 11:08 -03:00: 123 [1mnull[22m
+2024-07-24 11:08 -03:00: Error: Illegal arguments: string, object
+    at _async [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:286:46[90m)[39m
+    at [90mC:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39mnode_modules\[4mbcryptjs[24m\dist\bcrypt.js:306:20[90m)[39m
+    at create [90m(C:\Users\Gabriel Maximo\Desktop\App React Movies\Movie\[39msrc\controllers\sessionControllers.js:19:35[90m)[39m
